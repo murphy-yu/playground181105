@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - ObjcAssociatedObjectHelpers (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core (= 2.0.1)
+    - "ObjcAssociatedObjectHelpers/NSObject+Dictionary (= 2.0.1)"
+  - ObjcAssociatedObjectHelpers/Core (2.0.1)
+  - "ObjcAssociatedObjectHelpers/NSObject+Dictionary (2.0.1)":
+    - ObjcAssociatedObjectHelpers/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - ObjcAssociatedObjectHelpers (~> 2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ObjcAssociatedObjectHelpers
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  ObjcAssociatedObjectHelpers: 686c291f292c26a49b9b1fa7d58130a8d35d59d2
+
+PODFILE CHECKSUM: ef7373967ecf9bb321f9672d480d4cc4e0a35776
+
+COCOAPODS: 1.5.3
